@@ -1,0 +1,62 @@
+.map-container {
+    position: fixed;
+    left: 1%;
+    top: 30%;
+    width: 40%;
+    height: 58%;
+    float: left;
+    background-color: yellow;
+
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.street-container {
+    background-color: white;
+    float: right;
+    width: 57%;
+    height: 100%;
+    text-align: left;
+}
+
+.street-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 520px;
+    gap: 20px;
+    align-items: left;
+  
+    
+
+    /* set a height so the scrollbar appears */
+}
+
+.street-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20%;
+    /* add some spacing between the images */
+}
+
+.street-packet {
+    display: flex;
+    gap: 20px;
+
+}
+
+.street-N_D {
+    flex-direction: column;
+}
+
+.street-name {
+    margin: 0;
+}
+
+.street-description {
+    margin: 0;
+}
