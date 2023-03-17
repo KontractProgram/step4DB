@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .nav {
+  
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1 rem;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1 rem;
+  
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    color: antiquewhite;
+  }
+  
+  
+  .App-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    width: 1150px;
+    height: auto;
+  }
